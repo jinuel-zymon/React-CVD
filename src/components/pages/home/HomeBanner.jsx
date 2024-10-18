@@ -6,7 +6,7 @@ const HomeBanner = () => {
     <section className="py-24">
     <div className="container">
       <div className="flex flex-col-reverse md:flex-row items-center gap-10">
-        <div className="basis-[35%]">
+        <div className="basis-[35%] text-center md:text-start">
           <h1>Creative Visual Designs</h1>
           <p className="max-w-[550px] mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aliquid sint consequatur vitae quidem nulla iste libero. Dolor vel, iure modi dolorum alias distinctio fuga autem, vitae nostrum consequatur tenetur quos similique molestiae quibusdam accusantium quis aut ratione! Tempore, repellendus?</p>
           <Link to="/" className="btn btn-accent">Explore More</Link>

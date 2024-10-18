@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='py-10 bg-black text-white'>
       <div className="container">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col gap-5 md:gap-0 md:flex-row justify-between items-center">
           <ul className='flex gap-5'>
             <li><Link to="/"><Facebook/></Link></li>
             <li><Link to="/"><Twitter/></Link></li>
